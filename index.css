@@ -1,0 +1,125 @@
+
+
+
+
+html {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+
+/* div {
+    white-space: pre-wrap;
+} */
+#mission p {
+    margin: 0 auto;
+    width: 80%;
+}
+
+nav {
+    text-align: center;
+}
+
+
+nav a {
+text-decoration: none;
+color: black;
+padding: 1em;
+
+}
+#home {
+    background-image: url(img/banner.jpg);
+    width: cover;
+    height: 15em;
+
+    
+}
+/* .title {
+    display: inline-block;
+} */
+h1 span:first-child {
+    color: #ffe964;
+}
+h1 span:nth-of-type(2) {
+    color: #ff523d;
+} 
+h1 span:last-child {
+    color: #223c88;
+
+    
+}
+
+h1 {
+    margin: 0 auto;
+    width: 60%;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    color: white;
+    padding-top: 50px;
+    /* padding-bottom: 5%; */
+    
+    /* white-space: pre-wrap; */
+}
+#mission {
+    background-color: #ffe964;
+    text-align: center;
+    height: 250px;  
+    margin-top: 0ex;  
+}
+
+#mission > h2 {
+    
+    margin-top: 0;
+    padding-top: 70px;
+    
+}
+
+#mission p.mission {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#about_us {
+    text-align: left;
+    
+    margin: 0 auto;
+    width: 60%;
+}
+#team {
+    background-color: #ff523d;
+    margin-top: 0;
+}
+#team > h2 {
+    color: white;
+    margin: 0 auto;
+    width: 60%;
+
+}
+#team div.team {
+    text-align: center; 
+    color: white;
+    margin-bottom: -16px;
+   
+}
+#contact {
+    margin: 0;
+    background-color: #223c88;
+    color: white;
+    
+}
+#contact h2,.contact {
+   
+    margin: 0 auto;
+    width: 60%;
+}
+
+div.contact p{
+    padding: 10px;
+    margin: 0;
+}
